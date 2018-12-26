@@ -14,5 +14,5 @@ EASTRAY can read and write both 32K and 16.7M color TIFF images. 32K color TIFFs
 output_mode
   24
    0 ;
-output outputfile.tif
+output outputfile.tif ;
 ```
