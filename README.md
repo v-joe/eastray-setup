@@ -1,6 +1,6 @@
 # eastray-setup
 
-Script to download DOS extender and freeware EASTRAY raytracer and set up wrapper script to run EASTRAY from the command line via [DOSBox](https://www.dosbox.com).
+Script to download DOS extender and freeware EASTRAY raytracer (originally developed for the [FM Towns](https://en.wikipedia.org/wiki/FM_Towns)) and set up wrapper script to run EASTRAY from the command line via [DOSBox](https://www.dosbox.com).
 
 Running `bash download.sh`, a sub folder `eastraydownload` is going to be created. `eastray.sh` inside that folder can be used to launch EASTRAY.
 
