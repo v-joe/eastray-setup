@@ -7,3 +7,12 @@ Running `bash download.sh`, a sub folder `eastraydownload` is going to be create
 Syntax: `eastray.sh [-v] path/scene.ray`
 
 The optional parameter `-v` shows the progress on raytraced scanlines; leaving it out no DOSBox window will be opened and EASTRAY will run silently.
+
+## TIFF files
+EASTRAY can read and write both 32K and 16.7M color TIFF images. 32k color TIFFs were commonly used on the [FM Towns](https://en.wikipedia.org/wiki/FM_Towns) and can be converted to and from PNG with [tiff32k2png and png2tiff32k](https://github.com/v-joe/tiff32k). For high-quality picture output from EASTRAY, 16.7M color TIFF images are recommended; corresponding 24bit output can be set in EASTRAY scene files via
+```
+output_mode
+  24
+   0 ;
+output outputfile.tif
+```
